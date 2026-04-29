@@ -114,7 +114,7 @@ const Navbar: React.FC = () => {
               animate={{ opacity: 1 }}
               transition={{ delay: 0.3, duration: 0.3 }}
             >
-              Digital Solutions LLP
+              Digital Solution LLP
             </motion.span>
           </div>
         </Link>

@@ -599,7 +599,7 @@ const Home: React.FC = () => {
                           Founder & CEO
                         </span>
                         <h3 className="text-2xl font-bold text-white mb-1">Antony Praveen</h3>
-                        <p className="text-blue-100">Rockbridge Digital Solutions</p>
+                        <p className="text-blue-100">Tech Tycoon Digital Solution LLP</p>
                       </motion.div>
                     </div>
                   </div>
@@ -638,7 +638,7 @@ const Home: React.FC = () => {
                     transition={{ duration: 0.6, delay: 0.1 }}
                     className="leading-relaxed"
                   >
-                    As the founder of Rockbridge Digital Solutions, I am passionate about empowering
+                    As the founder of Tech Tycoon Digital Solution LLP, I am passionate about empowering
                     businesses and individuals to unlock their potential in the digital world. With over 4 years of
                     experience in digital marketing, content creation, and training, my journey has been
                     shaped by a commitment to excellence and innovation.

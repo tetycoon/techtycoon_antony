@@ -44,7 +44,7 @@ const Footer: React.FC = () => {
               </div>
               <div className="flex flex-col">
                 <span className="text-2xl font-bold bg-gradient-to-r from-blue-400 to-indigo-400 bg-clip-text text-transparent whitespace-nowrap pr-3">Tech Tycoon</span>
-                <span className="text-xs text-gray-400 whitespace-nowrap pr-2">Digital Solutions LLP</span>
+                <span className="text-xs text-gray-400 whitespace-nowrap pr-2">Digital Solution LLP</span>
               </div>
             </Link>
             <p className="text-gray-400 mb-6 leading-relaxed text-sm max-w-xs">
@@ -249,7 +249,7 @@ const Footer: React.FC = () => {
 
         {/* Copyright */}
         <div className="mt-16 pt-8 border-t border-gray-800/50 text-center text-gray-500 text-sm">
-          <p className="whitespace-nowrap">© {currentYear} Tech Tycoon Digital Solutions LLP. All rights reserved.</p>
+          <p className="whitespace-nowrap">© {currentYear} Tech Tycoon Digital Solution LLP. All rights reserved.</p>
           <div className="mt-4 flex flex-wrap justify-center gap-4 sm:gap-6">
             <Link to="/privacy-policy" className="text-gray-500 hover:text-gray-300 transition-colors">Privacy Policy</Link>
             <Link to="/terms-of-service" className="text-gray-500 hover:text-gray-300 transition-colors">Terms of Service</Link>
