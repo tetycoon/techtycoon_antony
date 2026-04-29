@@ -94,7 +94,7 @@ const Navbar: React.FC = () => {
             <div className="relative bg-white dark:bg-gray-800 rounded-full p-1.5 shadow-lg">
               <img
                 src={logo}
-                alt="Tech Tycoon Logo"
+                alt="Rockbridge Logo"
                 className="w-8 h-8 object-contain"
               />
             </div>
@@ -106,7 +106,7 @@ const Navbar: React.FC = () => {
               animate={{ opacity: 1, x: 0 }}
               transition={{ delay: 0.2, duration: 0.3 }}
             >
-              Tech Tycoon
+              Rockbridge
             </motion.span>
             <motion.span
               className="hidden sm:inline-block text-xs text-gray-500 dark:text-gray-400 font-medium leading-tight pr-2"

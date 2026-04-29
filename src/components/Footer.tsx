@@ -37,13 +37,13 @@ const Footer: React.FC = () => {
                 <div className="relative p-2 rounded-full bg-gray-800/80 border border-gray-700 backdrop-blur-sm">
                   <img
                     src={logo}
-                    alt="Tech Tycoon Logo"
+                    alt="Rockbridge Logo"
                     className="w-10 h-10 object-contain"
                   />
                 </div>
               </div>
               <div className="flex flex-col">
-                <span className="text-2xl font-bold bg-gradient-to-r from-blue-400 to-indigo-400 bg-clip-text text-transparent whitespace-nowrap pr-3">Tech Tycoon</span>
+                <span className="text-2xl font-bold bg-gradient-to-r from-blue-400 to-indigo-400 bg-clip-text text-transparent whitespace-nowrap pr-3">Rockbridge</span>
                 <span className="text-xs text-gray-400 whitespace-nowrap pr-2">Digital Solutions</span>
               </div>
             </Link>
@@ -249,7 +249,7 @@ const Footer: React.FC = () => {
 
         {/* Copyright */}
         <div className="mt-16 pt-8 border-t border-gray-800/50 text-center text-gray-500 text-sm">
-          <p className="whitespace-nowrap">© {currentYear} Tech Tycoon. All rights reserved.</p>
+          <p className="whitespace-nowrap">© {currentYear} Rockbridge. All rights reserved.</p>
           <div className="mt-4 flex flex-wrap justify-center gap-4 sm:gap-6">
             <Link to="/privacy-policy" className="text-gray-500 hover:text-gray-300 transition-colors">Privacy Policy</Link>
             <Link to="/terms-of-service" className="text-gray-500 hover:text-gray-300 transition-colors">Terms of Service</Link>
