@@ -665,7 +665,7 @@ const Home: React.FC = () => {
                     transition={{ duration: 0.6, delay: 0.3 }}
                     className="leading-relaxed"
                   >
-                    At Rockbridge, we pride ourselves on delivering result-driven marketing
+                    At Tech Tycoon Digital Solution LLP, we pride ourselves on delivering result-driven marketing
                     strategies and industry-relevant training programs that make a tangible impact. I'm
                     deeply committed to helping my clients grow smarter, and my learners grow stronger in the
                     ever-evolving digital landscape.

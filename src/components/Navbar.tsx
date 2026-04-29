@@ -94,7 +94,7 @@ const Navbar: React.FC = () => {
             <div className="relative bg-white dark:bg-gray-800 rounded-full p-1.5 shadow-lg">
               <img
                 src={logo}
-                alt="Rockbridge Logo"
+                alt="Tech Tycoon Logo"
                 className="w-8 h-8 object-contain"
               />
             </div>

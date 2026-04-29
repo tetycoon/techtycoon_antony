@@ -27,7 +27,7 @@ const TermsOfService: React.FC = () => {
         </svg>
       ),
       title: "Services Offered",
-      description: "Tech Tycoon Digital Solutions provides:",
+      description: "Tech Tycoon Digital Solution LLP provides:",
       items: ["Digital Marketing Services", "AI Training & Workshops", "Content Creation", "Branding, Designing & Social Media Management", "Online Courses & Training Programs"],
       note: "We reserve the right to modify or discontinue services without notice."
     },
@@ -60,7 +60,7 @@ const TermsOfService: React.FC = () => {
         </svg>
       ),
       title: "Intellectual Property",
-      description: "All content on this website is the intellectual property of Tech Tycoon Digital Solutions:",
+      description: "All content on this website is the intellectual property of Tech Tycoon Digital Solution LLP:",
       items: ["Logos", "Images", "Text", "Training materials", "Digital products", "Videos", "Branding elements"],
       note: "You may not copy, distribute, or reuse this content without written permission."
     },
@@ -172,7 +172,7 @@ const TermsOfService: React.FC = () => {
             className="bg-gradient-to-r from-purple-50 to-pink-50 dark:from-purple-900/20 dark:to-pink-900/20 rounded-2xl p-8 border-l-4 border-purple-500"
           >
             <p className="text-gray-700 dark:text-gray-300 leading-relaxed">
-              By accessing or using <a href="https://www.techtycoon.in" className="text-purple-600 dark:text-purple-400 hover:underline font-semibold">www.techtycoon.in</a>, you agree to these Terms of Service. If you do not agree, please stop using our website.
+              By accessing or using <a href="https://www.rockbridge.in" className="text-purple-600 dark:text-purple-400 hover:underline font-semibold">www.rockbridge.in</a>, you agree to these Terms of Service. If you do not agree, please stop using our website.
             </p>
           </motion.div>
         </div>

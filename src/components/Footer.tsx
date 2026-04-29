@@ -34,13 +34,13 @@ const Footer: React.FC = () => {
             <Link to="/" className="flex items-center gap-3 mb-6 group">
               <div className="relative">
                 <div className="absolute -inset-1 bg-gradient-to-r from-blue-500 to-indigo-500 rounded-full blur-md opacity-70 group-hover:opacity-100 transition-opacity"></div>
-                <div className="relative p-2 rounded-full bg-gray-800/80 border border-gray-700 backdrop-blur-sm">
-                  <img
-                    src={logo}
-                    alt="Rockbridge Logo"
-                    className="w-10 h-10 object-contain"
-                  />
-                </div>
+                  <div className="relative p-2 rounded-full bg-gray-800/80 border border-gray-700 backdrop-blur-sm">
+                    <img
+                      src={logo}
+                      alt="Tech Tycoon Logo"
+                      className="w-10 h-10 object-contain"
+                    />
+                  </div>
               </div>
               <div className="flex flex-col">
                 <span className="text-2xl font-bold bg-gradient-to-r from-blue-400 to-indigo-400 bg-clip-text text-transparent whitespace-nowrap pr-3">Tech Tycoon</span>

@@ -14,7 +14,7 @@ const testimonials: Testimonial[] = [
     id: 1,
     name: "Priya Ramesh",
     role: "Small Business Owner",
-    text: "The training I received at Tech Tycoon was incredibly practical and easy to follow. I started as a beginner and now I confidently manage social media campaigns for my own brand!"
+    text: "The training I received at Tech Tycoon Digital Solution LLP was incredibly practical and easy to follow. I started as a beginner and now I confidently manage social media campaigns for my own brand!"
   },
   {
     id: 2,
@@ -204,7 +204,7 @@ const Testimonials: React.FC = () => {
             animate={isInView ? { opacity: 1 } : { opacity: 0 }}
             transition={{ duration: 0.6, delay: 0.4 }}
           >
-            Discover what our clients and students have to say about their experience with Tech Tycoon.
+            Discover what our clients and students have to say about their experience with Tech Tycoon Digital Solution LLP.
           </motion.p>
         </motion.div>
         

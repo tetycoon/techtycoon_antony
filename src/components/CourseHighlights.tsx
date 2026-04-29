@@ -79,7 +79,7 @@ const CourseHighlights: React.FC = () => {
             animate={isInView ? { opacity: 1, y: 0 } : { opacity: 0, y: 20 }}
             transition={{ duration: 0.6, delay: 0.2 }}
           >
-              Subscribe to Tech Tycoon Updates
+              Subscribe to Tech Tycoon Digital Solution LLP Updates
           </motion.h2>
           
           <motion.div 

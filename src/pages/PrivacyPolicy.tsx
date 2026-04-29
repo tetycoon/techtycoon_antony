@@ -142,7 +142,7 @@ const PrivacyPolicy: React.FC = () => {
             className="bg-gradient-to-r from-blue-50 to-indigo-50 dark:from-blue-900/20 dark:to-indigo-900/20 rounded-2xl p-8 border-l-4 border-blue-500"
           >
             <p className="text-gray-700 dark:text-gray-300 leading-relaxed">
-              Welcome to Tech Tycoon Digital Solutions. We are committed to protecting your personal information and respecting your privacy. This Privacy Policy explains how we collect, use, disclose, and safeguard your information when you visit our website <a href="https://www.techtycoon.in" className="text-blue-600 dark:text-blue-400 hover:underline">www.techtycoon.in</a>.
+              Welcome to Tech Tycoon Digital Solution LLP. We are committed to protecting your personal information and respecting your privacy. This Privacy Policy explains how we collect, use, disclose, and safeguard your information when you visit our website <a href="https://www.rockbridge.in" className="text-blue-600 dark:text-blue-400 hover:underline">www.rockbridge.in</a>.
             </p>
           </motion.div>
         </div>
@@ -221,11 +221,11 @@ const PrivacyPolicy: React.FC = () => {
                 </svg>
                 admin@techtycoon.in
               </a>
-              <a href="https://www.techtycoon.in" className="inline-flex items-center gap-2 px-6 py-3 bg-white/10 backdrop-blur-sm text-white rounded-xl font-semibold hover:bg-white/20 transition-colors border border-white/20">
+              <a href="https://www.rockbridge.in" className="inline-flex items-center gap-2 px-6 py-3 bg-white/10 backdrop-blur-sm text-white rounded-xl font-semibold hover:bg-white/20 transition-colors border border-white/20">
                 <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                   <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M21 12a9 9 0 01-9 9m9-9a9 9 0 00-9-9m9 9H3m9 9a9 9 0 01-9-9m9 9c1.657 0 3-4.03 3-9s-1.343-9-3-9m0 18c-1.657 0-3-4.03-3-9s1.343-9 3-9m-9 9a9 9 0 019-9" />
                 </svg>
-                www.techtycoon.in
+                www.rockbridge.in
               </a>
             </div>
           </div>

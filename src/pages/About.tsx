@@ -137,7 +137,7 @@ const About: React.FC = () => {
               className="mb-6"
             >
               <span className="inline-block py-1 px-3 rounded-full bg-white/10 text-white text-sm font-medium backdrop-blur-sm">
-                About Tech Tycoon
+                About Tech Tycoon Digital Solution LLP
               </span>
             </motion.div>
 
@@ -156,7 +156,7 @@ const About: React.FC = () => {
               animate={{ opacity: 1 }}
               transition={{ duration: 0.4, delay: 0.2 }}
             >
-              With 6+ years of experience in digital marketing, we're building towards the official establishment of Tech Tycoon in 2025, dedicated to making cutting-edge AI marketing tools and strategies accessible to everyone.
+              With 6+ years of experience in digital marketing, we're building towards the official establishment of Tech Tycoon Digital Solution LLP in 2025, dedicated to making cutting-edge AI marketing tools and strategies accessible to everyone.
             </motion.p>
 
             <motion.div
@@ -213,7 +213,7 @@ const About: React.FC = () => {
               viewport={{ once: true, margin: "-50px" }}
               variants={fadeInUp}
             >
-              With 6+ years of experience in digital marketing, we're building towards the official establishment of Tech Tycoon in 2025, dedicated to making cutting-edge AI marketing tools and strategies accessible to everyone.
+              With 6+ years of experience in digital marketing, we're building towards the official establishment of Tech Tycoon Digital Solution LLP in 2025, dedicated to making cutting-edge AI marketing tools and strategies accessible to everyone.
             </motion.p>
           </div>
 
@@ -364,8 +364,8 @@ const About: React.FC = () => {
                 },
                 {
                   year: "2025",
-                  title: "Tech Tycoon Founded",
-                  description: "Officially established Tech Tycoon as a company offering multiple AI-powered digital services."
+                  title: "Tech Tycoon Digital Solution LLP Founded",
+                  description: "Officially established Tech Tycoon Digital Solution LLP as a company offering multiple AI-powered digital services."
                 }
               ].map((milestone, index) => (
                 <motion.div

@@ -269,7 +269,7 @@ const collegeActivities: CollegeActivity[] = [
     description: (
       <>
         <p className="mb-4">
-          Tech Tycoon Digital Solutions was proud to deliver an insightful and future-focused session at
+          Tech Tycoon Digital Solution LLP was proud to deliver an insightful and future-focused session at
           Tagore Medical College, Chennai, for a vibrant group of 70 aspiring dental students. Originally
           planned as a session on "Computer Literacy," the session was rebranded to "Digital Dentistry" to
           better reflect the evolving needs of the dental industry in today's digital era.
@@ -386,7 +386,7 @@ const Newsletter: React.FC = () => {
           transition={{ duration: 0.6 }}
         >
           <span className="inline-block px-4 py-1 rounded-full bg-blue-100 dark:bg-blue-900/30 text-blue-600 dark:text-blue-400 text-sm font-medium mb-3">
-            Tech Tycoon Outreach
+            Tech Tycoon Digital Solution LLP Outreach
           </span>
           <h1 className="text-4xl md:text-5xl font-bold text-gray-900 dark:text-white mb-4">
             WorkShops at Colleges & Corporates
@@ -456,7 +456,7 @@ const Newsletter: React.FC = () => {
 
                   <div className="pt-4 border-t border-gray-200 dark:border-gray-700">
                     <p className="text-blue-600 dark:text-blue-400 font-medium italic">
-                      "At Tech Tycoon Digital Solutions, we believe in bridging education with real-world innovation.
+                      "At Tech Tycoon Digital Solution LLP, we believe in bridging education with real-world innovation.
                       This initiative reflects our mission to prepare the next generation with future-ready skills."
                     </p>
                     <p className="text-gray-600 dark:text-gray-400 text-sm mt-2">

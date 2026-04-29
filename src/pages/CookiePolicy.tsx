@@ -164,7 +164,7 @@ const CookiePolicy: React.FC = () => {
             className="bg-gradient-to-r from-orange-50 to-amber-50 dark:from-orange-900/20 dark:to-amber-900/20 rounded-2xl p-8 border-l-4 border-orange-500"
           >
             <p className="text-gray-700 dark:text-gray-300 leading-relaxed">
-              This Cookie Policy explains how Tech Tycoon Digital Solutions uses cookies and tracking technologies on our website <a href="https://www.techtycoon.in" className="text-orange-600 dark:text-orange-400 hover:underline font-semibold">www.techtycoon.in</a>.
+              This Cookie Policy explains how Tech Tycoon Digital Solution LLP uses cookies and tracking technologies on our website <a href="https://www.rockbridge.in" className="text-orange-600 dark:text-orange-400 hover:underline font-semibold">www.rockbridge.in</a>.
             </p>
           </motion.div>
         </div>
