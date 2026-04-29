@@ -1,0 +1,250 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8" />
+  <link rel="icon" href="%PUBLIC_URL%/logo.png" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="theme-color" content="#000000" />
+  <base href="/" />
+  <meta name="description" content="Tech Tycoon - AI Marketing Solutions and Courses" />
+  <!-- Preconnect to critical domains -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+
+  <!-- Font preload -->
+  <link rel="preload" as="style"
+    href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" />
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" />
+
+  <link rel="apple-touch-icon" href="%PUBLIC_URL%/logo.png" />
+  <link rel="manifest" href="%PUBLIC_URL%/manifest.json" />
+  <!-- Razorpay Script -->
+  <script src="https://checkout.razorpay.com/v1/checkout.js"></script>
+  <title>Tech Tycoon</title>
+  <!-- SPA redirect handler -->
+  <script>
+    // Handle redirects from 404.html for SPA routes
+    (function () {
+      var redirectPath = sessionStorage.getItem('spa_redirect_path');
+      if (redirectPath && redirectPath !== '/') {
+        sessionStorage.removeItem('spa_redirect_path');
+        history.replaceState(null, null, redirectPath);
+      }
+    })();
+  </script>
+  <!-- Instant loading indicator for better perceived performance -->
+  <style>
+    :root {
+      --tt-bg: #ffffff;
+      --tt-bg-dark: #0b1220;
+    }
+
+    @media (prefers-color-scheme: dark) {
+      :root {
+        --tt-bg: #0b1220;
+      }
+    }
+
+    body {
+      margin: 0;
+      padding: 0;
+      background-color: var(--tt-bg);
+    }
+
+    #root-loading {
+      position: fixed;
+      inset: 0;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      background: var(--tt-bg);
+      z-index: 9999;
+      transition: opacity 0.5s ease-out;
+    }
+
+    /* Abstract Background Shapes */
+    #root-loading .bg-shape {
+      position: absolute;
+      border-radius: 50%;
+      filter: blur(80px);
+      opacity: 0.1;
+      animation: float 8s infinite ease-in-out;
+    }
+
+    #root-loading .shape-1 {
+      top: -10%;
+      left: -10%;
+      width: 400px;
+      height: 400px;
+      background: #3b82f6;
+      animation-delay: 0s;
+    }
+
+    #root-loading .shape-2 {
+      bottom: -10%;
+      right: -10%;
+      width: 400px;
+      height: 400px;
+      background: #a855f7;
+      animation-delay: 1s;
+    }
+
+    /* Logo Container */
+    #root-loading .logo-container {
+      position: relative;
+      z-index: 10;
+      padding: 30px;
+      border-radius: 50%;
+      background: rgba(255, 255, 255, 0.05);
+      backdrop-filter: blur(20px);
+      border: 1px solid rgba(255, 255, 255, 0.1);
+      box-shadow: 0 25px 50px -12px rgba(0, 0, 0, 0.25);
+    }
+
+    #root-loading .logo {
+      width: 80px;
+      height: 80px;
+      object-fit: contain;
+      filter: drop-shadow(0 0 15px rgba(59, 130, 246, 0.3));
+      animation: spin 2s linear infinite;
+    }
+
+    /* Text */
+    #root-loading .brand-text {
+      margin-top: 30px;
+      font-family: 'Inter', sans-serif;
+      font-size: 24px;
+      font-weight: 700;
+      color: #ffffff;
+      opacity: 0;
+      animation: fade-in 0.5s ease-out 0.3s forwards;
+    }
+
+    /* Progress Bar */
+    #root-loading .progress-container {
+      margin-top: 20px;
+      width: 200px;
+      height: 6px;
+      background: rgba(100, 116, 139, 0.2);
+      border-radius: 999px;
+      overflow: hidden;
+      position: relative;
+    }
+
+    #root-loading .progress-bar {
+      position: absolute;
+      top: 0;
+      left: 0;
+      height: 100%;
+      width: 100%;
+      background: linear-gradient(90deg, #3b82f6, #a855f7, #3b82f6);
+      background-size: 200% 100%;
+      animation: progress-slide 1.5s ease-in-out infinite;
+    }
+
+    @keyframes float {
+
+      0%,
+      100% {
+        transform: translate(0, 0) scale(1);
+      }
+
+      33% {
+        transform: translate(30px, -30px) scale(1.1);
+      }
+
+      66% {
+        transform: translate(-20px, 20px) scale(0.9);
+      }
+    }
+
+    @keyframes spin {
+      from {
+        transform: rotate(0deg);
+      }
+
+      to {
+        transform: rotate(360deg);
+      }
+    }
+
+    @keyframes gradient-move {
+      0% {
+        background-position: 0% 50%;
+      }
+
+      100% {
+        background-position: 200% 50%;
+      }
+    }
+
+    @keyframes fade-in {
+      from {
+        opacity: 0;
+        transform: translateY(10px);
+      }
+
+      to {
+        opacity: 1;
+        transform: translateY(0);
+      }
+    }
+
+    @keyframes progress-slide {
+      0% {
+        transform: translateX(-100%);
+      }
+
+      100% {
+        transform: translateX(100%);
+      }
+    }
+  </style>
+  <script>
+    // Function to hide loading indicator once React loads
+    window.hideLoading = function () {
+      var loader = document.getElementById('root-loading');
+      if (loader) {
+        loader.style.opacity = '0';
+        setTimeout(function () {
+          loader.style.display = 'none';
+        }, 500);
+      }
+    };
+    // Auto-hide after 5 seconds as a fallback
+    setTimeout(window.hideLoading, 5000);
+  </script>
+</head>
+
+<body>
+  <noscript>You need to enable JavaScript to run this app.</noscript>
+  <div id="root-loading">
+    <div class="bg-shape shape-1"></div>
+    <div class="bg-shape shape-2"></div>
+
+    <div class="logo-container">
+      <img src="%PUBLIC_URL%/logo.png" alt="Tech Tycoon" class="logo" />
+    </div>
+
+    <div class="brand-text">Tech Tycoon</div>
+
+    <div class="progress-container">
+      <div class="progress-bar"></div>
+    </div>
+  </div>
+  <div id="root"></div>
+  <!--
+      This HTML file is a template.
+      If you open it directly in the browser, you will see an empty page.
+
+      You can add webfonts, meta tags, or analytics to this file.
+      The build step will place the bundled scripts into the <body> tag.
+
+      To begin the development, run `npm start` or `yarn start`.
+      To create a production bundle, use `npm run build` or `yarn build`.
+    -->
+</body>
+
+</html>

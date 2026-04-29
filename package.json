@@ -1,0 +1,82 @@
+{
+  "name": "dd",
+  "version": "0.1.0",
+  "private": true,
+  "homepage": "https://rockbridge.in",
+  "dependencies": {
+    "@emailjs/browser": "^4.4.1",
+    "@heroicons/react": "^2.2.0",
+    "@radix-ui/react-accordion": "^1.2.8",
+    "@radix-ui/react-dialog": "^1.1.11",
+    "@radix-ui/react-tabs": "^1.1.9",
+    "@radix-ui/react-tooltip": "^1.2.4",
+    "@testing-library/dom": "^10.4.0",
+    "@testing-library/jest-dom": "^6.6.3",
+    "@testing-library/react": "^16.3.0",
+    "@testing-library/user-event": "^13.5.0",
+    "@types/jest": "^27.5.2",
+    "@types/node": "^16.18.126",
+    "@types/react": "^19.1.2",
+    "@types/react-dom": "^19.1.2",
+    "axios": "^1.8.4",
+    "canvas-confetti": "^1.9.3",
+    "class-variance-authority": "^0.7.1",
+    "clsx": "^2.1.1",
+    "cors": "^2.8.5",
+    "dotenv": "^16.5.0",
+    "express": "^5.1.0",
+    "framer-motion": "^12.8.0",
+    "razorpay": "^2.9.6",
+    "react": "^19.1.0",
+    "react-dom": "^19.1.0",
+    "react-hook-form": "^7.56.1",
+    "react-icons": "^4.12.0",
+    "react-intersection-observer": "^9.16.0",
+    "react-router-dom": "^7.5.1",
+    "react-scripts": "5.0.1",
+    "styled-jsx": "^5.1.6",
+    "tailwind-merge": "^3.2.0",
+    "typescript": "^4.9.5",
+    "web-vitals": "^2.1.4",
+    "zod": "^3.24.3"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "cross-env CI=false SKIP_PREFLIGHT_CHECK=true react-scripts build && npm run copy-files",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject",
+    "vercel-build": "cross-env CI=false SKIP_PREFLIGHT_CHECK=true react-scripts build && npm run copy-files",
+    "copy-files": "node scripts/copy-files.js"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "devDependencies": {
+    "@types/canvas-confetti": "^1.9.0",
+    "autoprefixer": "^10.4.16",
+    "cross-env": "^7.0.3",
+    "heic-convert": "^2.1.0",
+    "postcss": "^8.4.31",
+    "tailwindcss": "^3.3.5"
+  },
+  "description": "A modern, responsive website for course registration with payment integration and email notifications.",
+  "main": "index.tsx",
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
