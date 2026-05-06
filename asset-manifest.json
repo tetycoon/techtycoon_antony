@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/static/css/main.70a5e371.css",
-    "main.js": "/static/js/main.d6487fce.js",
-    "static/js/37.d1518e9f.chunk.js": "/static/js/37.d1518e9f.chunk.js",
+    "main.js": "/static/js/main.1733f835.js",
+    "static/js/827.ec31fae5.chunk.js": "/static/js/827.ec31fae5.chunk.js",
     "static/js/20.504cf2dc.chunk.js": "/static/js/20.504cf2dc.chunk.js",
     "static/js/107.9485ae6c.chunk.js": "/static/js/107.9485ae6c.chunk.js",
     "static/js/761.6f9659bc.chunk.js": "/static/js/761.6f9659bc.chunk.js",
@@ -48,6 +48,7 @@
     "static/media/WhatsApp Image 2025-05-23 at 18.50.22_0673c820.jpg": "/static/media/WhatsApp Image 2025-05-23 at 18.50.22_0673c820.d094194b1113c797147f.jpg",
     "static/media/111.jpeg": "/static/media/111.66900f445f8e7d56fbdc.jpeg",
     "static/media/IMG-20250113-WA0001.jpg": "/static/media/IMG-20250113-WA0001.e2542d51928c1d0444f3.jpg",
+    "static/media/124.jpeg": "/static/media/124.b4605258929f7dfb46b6.jpeg",
     "static/media/120.jpeg": "/static/media/120.4f2cc42e1a566b23724e.jpeg",
     "static/media/IMG-20250113-WA0003.jpg": "/static/media/IMG-20250113-WA0003.8ea90dc9a903e5325fa3.jpg",
     "static/media/IMG-20250321-WA0008.jpg": "/static/media/IMG-20250321-WA0008.363b4d83903ca39142ff.jpg",
@@ -68,8 +69,8 @@
     "static/media/whatsappmark.jpeg": "/static/media/whatsappmark.61f53079540627088b2b.jpeg",
     "index.html": "/index.html",
     "main.70a5e371.css.map": "/static/css/main.70a5e371.css.map",
-    "main.d6487fce.js.map": "/static/js/main.d6487fce.js.map",
-    "37.d1518e9f.chunk.js.map": "/static/js/37.d1518e9f.chunk.js.map",
+    "main.1733f835.js.map": "/static/js/main.1733f835.js.map",
+    "827.ec31fae5.chunk.js.map": "/static/js/827.ec31fae5.chunk.js.map",
     "20.504cf2dc.chunk.js.map": "/static/js/20.504cf2dc.chunk.js.map",
     "107.9485ae6c.chunk.js.map": "/static/js/107.9485ae6c.chunk.js.map",
     "761.6f9659bc.chunk.js.map": "/static/js/761.6f9659bc.chunk.js.map",
@@ -86,6 +87,6 @@
   },
   "entrypoints": [
     "static/css/main.70a5e371.css",
-    "static/js/main.d6487fce.js"
+    "static/js/main.1733f835.js"
   ]
 }
