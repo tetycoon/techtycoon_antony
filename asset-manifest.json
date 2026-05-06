@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/static/css/main.70a5e371.css",
-    "main.js": "/static/js/main.1733f835.js",
-    "static/js/827.ec31fae5.chunk.js": "/static/js/827.ec31fae5.chunk.js",
+    "main.js": "/static/js/main.5eec0088.js",
+    "static/js/98.525630a9.chunk.js": "/static/js/98.525630a9.chunk.js",
     "static/js/20.504cf2dc.chunk.js": "/static/js/20.504cf2dc.chunk.js",
     "static/js/107.9485ae6c.chunk.js": "/static/js/107.9485ae6c.chunk.js",
     "static/js/761.6f9659bc.chunk.js": "/static/js/761.6f9659bc.chunk.js",
@@ -35,6 +35,7 @@
     "static/media/WhatsApp Image 2025-04-29 at 23.09.30_1530f658.jpg": "/static/media/WhatsApp Image 2025-04-29 at 23.09.30_1530f658.9340516d2d41686adfc3.jpg",
     "static/media/WhatsApp Image 2025-04-29 at 23.09.28_4c0913f7.jpg": "/static/media/WhatsApp Image 2025-04-29 at 23.09.28_4c0913f7.9e4fbbf577a47a9ef9b6.jpg",
     "static/media/990dcb9c-f30d-4f28-865a-e81e7c5df21c.png": "/static/media/990dcb9c-f30d-4f28-865a-e81e7c5df21c.b7ce0a7898e104f178c1.png",
+    "static/media/125.jpeg": "/static/media/125.af7c12beec2e95e9b6a4.jpeg",
     "static/media/videoedi.jpeg": "/static/media/videoedi.0f73af13a6029c0a7e6d.jpeg",
     "static/media/112.jpeg": "/static/media/112.7a98ff88b139ec2c57d4.jpeg",
     "static/media/113.jpeg": "/static/media/113.81360b09c7a6b8e4ac63.jpeg",
@@ -69,8 +70,8 @@
     "static/media/whatsappmark.jpeg": "/static/media/whatsappmark.61f53079540627088b2b.jpeg",
     "index.html": "/index.html",
     "main.70a5e371.css.map": "/static/css/main.70a5e371.css.map",
-    "main.1733f835.js.map": "/static/js/main.1733f835.js.map",
-    "827.ec31fae5.chunk.js.map": "/static/js/827.ec31fae5.chunk.js.map",
+    "main.5eec0088.js.map": "/static/js/main.5eec0088.js.map",
+    "98.525630a9.chunk.js.map": "/static/js/98.525630a9.chunk.js.map",
     "20.504cf2dc.chunk.js.map": "/static/js/20.504cf2dc.chunk.js.map",
     "107.9485ae6c.chunk.js.map": "/static/js/107.9485ae6c.chunk.js.map",
     "761.6f9659bc.chunk.js.map": "/static/js/761.6f9659bc.chunk.js.map",
@@ -87,6 +88,6 @@
   },
   "entrypoints": [
     "static/css/main.70a5e371.css",
-    "static/js/main.1733f835.js"
+    "static/js/main.5eec0088.js"
   ]
 }
